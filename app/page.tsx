@@ -1,21 +1,20 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 export default function Home() {
   return (
     <div className="relative w-full">
       <div>
-        <img
-          className="w-full bg-white opacity-25"
-          src="https://arynews.tv/wp-content/uploads/2017/01/governor-news.jpg"
-          alt=""
-        />
+        <Image className="w-full bg-white opacity-25" src="https://arynews.tv/wp-content/uploads/2017/01/governor-news.jpg" alt="description" 
+         width={100} 
+         height={100}  />
       </div>
 
       <div className="w-10">
-        <img
+        <Image
           className="max-h-full absolute bottom-0 -right-40"
           src="/images/cover.governor.png"
-          alt=""
+          alt="" width={900} 
+          height={500}
         />
       </div>
 

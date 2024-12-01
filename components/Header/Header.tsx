@@ -1,12 +1,15 @@
 import Link from "next/link"
-
+import Image from "next/image"
 
 export default function Header (){
     return(
         <div className=" bg-customBlue text-white flex items-center justify-evenly h-20">
 
-            <div className="mt-20 mr-8">
-                <img className= " h-28" src="https://www.governorsindh.com/_next/static/media/logo.9ff76f62.png" alt="logo" />
+            <div className="mt-16 mr-8">
+            
+            <Image className="h-280" src="https://www.governorsindh.com/_next/static/media/logo.9ff76f62.png" alt="logo"
+             width={100} height={200}  />
+            
             </div>
 
            <div className="font-black text-xl text-indigo-200">
